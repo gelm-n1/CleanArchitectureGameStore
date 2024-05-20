@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EC2EB574-2DEA-4B10-80BD-699EDF0F1F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureGameStore.Domain", "CleanArchitectureGameStore.Domain\CleanArchitectureGameStore.Domain.csproj", "{FF8FA661-FF4B-45AF-97AB-E1277C90F9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureGameStore.Application", "CleanArchitectureGameStore.Application\CleanArchitectureGameStore.Application.csproj", "{626764E2-64F8-475E-A2D4-F319C37DAB7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF8FA661-FF4B-45AF-97AB-E1277C90F9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8FA661-FF4B-45AF-97AB-E1277C90F9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8FA661-FF4B-45AF-97AB-E1277C90F9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8FA661-FF4B-45AF-97AB-E1277C90F9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626764E2-64F8-475E-A2D4-F319C37DAB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626764E2-64F8-475E-A2D4-F319C37DAB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626764E2-64F8-475E-A2D4-F319C37DAB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626764E2-64F8-475E-A2D4-F319C37DAB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF8FA661-FF4B-45AF-97AB-E1277C90F9E9} = {EC2EB574-2DEA-4B10-80BD-699EDF0F1F43}
+		{626764E2-64F8-475E-A2D4-F319C37DAB7C} = {EC2EB574-2DEA-4B10-80BD-699EDF0F1F43}
+	EndGlobalSection
+EndGlobal
