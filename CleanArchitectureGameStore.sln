@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureGameStore.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureGameStore.Application", "CleanArchitectureGameStore.Application\CleanArchitectureGameStore.Application.csproj", "{626764E2-64F8-475E-A2D4-F319C37DAB7C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{123315F7-9222-4CF3-B9D0-494F4BCB5416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureGameStore.Infrastructure", "CleanArchitectureGameStore.Infrastructure\CleanArchitectureGameStore.Infrastructure.csproj", "{B697CE39-7374-40D1-9690-91F88C383367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureGameStore.Persistence", "CleanArchitectureGameStore.Persistence\CleanArchitectureGameStore.Persistence.csproj", "{FEC3C815-1026-417A-82F4-061E7F2491F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +26,19 @@ Global
 		{626764E2-64F8-475E-A2D4-F319C37DAB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{626764E2-64F8-475E-A2D4-F319C37DAB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{626764E2-64F8-475E-A2D4-F319C37DAB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B697CE39-7374-40D1-9690-91F88C383367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B697CE39-7374-40D1-9690-91F88C383367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B697CE39-7374-40D1-9690-91F88C383367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B697CE39-7374-40D1-9690-91F88C383367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC3C815-1026-417A-82F4-061E7F2491F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC3C815-1026-417A-82F4-061E7F2491F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC3C815-1026-417A-82F4-061E7F2491F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC3C815-1026-417A-82F4-061E7F2491F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FF8FA661-FF4B-45AF-97AB-E1277C90F9E9} = {EC2EB574-2DEA-4B10-80BD-699EDF0F1F43}
 		{626764E2-64F8-475E-A2D4-F319C37DAB7C} = {EC2EB574-2DEA-4B10-80BD-699EDF0F1F43}
+		{B697CE39-7374-40D1-9690-91F88C383367} = {123315F7-9222-4CF3-B9D0-494F4BCB5416}
+		{FEC3C815-1026-417A-82F4-061E7F2491F6} = {123315F7-9222-4CF3-B9D0-494F4BCB5416}
 	EndGlobalSection
 EndGlobal
