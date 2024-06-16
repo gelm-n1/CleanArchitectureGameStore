@@ -4,6 +4,94 @@
     "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Persistence\\CleanArchitectureGameStore.Persistence.csproj": {}
   },
   "projects": {
+    "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Application\\CleanArchitectureGameStore.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Application\\CleanArchitectureGameStore.Application.csproj",
+        "projectName": "CleanArchitectureGameStore.Application",
+        "projectPath": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Application\\CleanArchitectureGameStore.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Domain\\CleanArchitectureGameStore.Domain.csproj": {
+                "projectPath": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Domain\\CleanArchitectureGameStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0-preview.3.24172.4, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Domain\\CleanArchitectureGameStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -14,14 +102,12 @@
         "outputPath": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +120,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -75,20 +166,21 @@
         "outputPath": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Application\\CleanArchitectureGameStore.Application.csproj": {
+                "projectPath": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Application\\CleanArchitectureGameStore.Application.csproj"
+              },
               "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Domain\\CleanArchitectureGameStore.Domain.csproj": {
                 "projectPath": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Domain\\CleanArchitectureGameStore.Domain.csproj"
               }
@@ -99,6 +191,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -107,7 +204,25 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0-preview.3.24172.4, )"
+              "version": "[9.0.0-preview.5.24306.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.7, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0-preview.3, )"
             }
           },
           "imports": [
@@ -126,7 +241,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

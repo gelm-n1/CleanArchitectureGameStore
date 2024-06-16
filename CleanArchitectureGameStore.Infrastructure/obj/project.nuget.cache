@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PnvjRicnz6rkVEOtAHcsK8OZxF9cn3K7203T5gVMfm3ppGL09iyh+Spgx2+cIvXMPpDDajYQMLpDSNbhu7dM7Q==",
+  "dgSpecHash": "GStwCIlIi7iDcvI7Ptk+8aMi6wgUY5lCmrPou9NVvSGwjwInuXD0g2HQBvAO4IS4k/FaAIhpadfNmVxtN5yrAg==",
   "success": true,
   "projectFilePath": "D:\\MyProjects\\Programming\\C#Projects\\CleanArchitectureGameStore\\CleanArchitectureGameStore.Infrastructure\\CleanArchitectureGameStore.Infrastructure.csproj",
   "expectedPackageFiles": [

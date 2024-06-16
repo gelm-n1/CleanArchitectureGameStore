@@ -1,0 +1,16 @@
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\bin\Debug\net8.0\CleanArchitectureGameStore.Application.deps.json
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\bin\Debug\net8.0\CleanArchitectureGameStore.Application.dll
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\bin\Debug\net8.0\CleanArchitectureGameStore.Application.pdb
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\bin\Debug\net8.0\CleanArchitectureGameStore.Domain.dll
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\bin\Debug\net8.0\CleanArchitectureGameStore.Domain.pdb
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArchitectureGameStore.Application.csproj.AssemblyReference.cache
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArchitectureGameStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArchitectureGameStore.Application.AssemblyInfoInputs.cache
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArchitectureGameStore.Application.AssemblyInfo.cs
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArchitectureGameStore.Application.csproj.CoreCompileInputs.cache
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArchitectureGameStore.Application.sourcelink.json
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArc.D67EF2C8.Up2Date
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArchitectureGameStore.Application.dll
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\refint\CleanArchitectureGameStore.Application.dll
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\CleanArchitectureGameStore.Application.pdb
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Application\obj\Debug\net8.0\ref\CleanArchitectureGameStore.Application.dll

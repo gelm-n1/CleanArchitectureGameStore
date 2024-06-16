@@ -1,0 +1,13 @@
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\bin\Debug\net8.0\CleanArchitectureGameStore.Domain.deps.json
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\bin\Debug\net8.0\CleanArchitectureGameStore.Domain.dll
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\bin\Debug\net8.0\CleanArchitectureGameStore.Domain.pdb
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\CleanArchitectureGameStore.Domain.csproj.AssemblyReference.cache
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\CleanArchitectureGameStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\CleanArchitectureGameStore.Domain.AssemblyInfoInputs.cache
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\CleanArchitectureGameStore.Domain.AssemblyInfo.cs
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\CleanArchitectureGameStore.Domain.csproj.CoreCompileInputs.cache
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\CleanArchitectureGameStore.Domain.sourcelink.json
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\CleanArchitectureGameStore.Domain.dll
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\refint\CleanArchitectureGameStore.Domain.dll
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\CleanArchitectureGameStore.Domain.pdb
+D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Domain\obj\Debug\net8.0\ref\CleanArchitectureGameStore.Domain.dll

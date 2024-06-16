@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CleanArchitecureGameStore.WebAPI.props" />
+</Project>

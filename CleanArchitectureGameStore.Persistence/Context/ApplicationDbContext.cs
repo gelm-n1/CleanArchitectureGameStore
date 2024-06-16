@@ -1,3 +1,4 @@
+using System.Reflection;
 using CleanArchitectureGameStore.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,12 @@ public class ApplicationDbContext : DbContext
     }
     
     public DbSet<Game> Games => Set<Game>();
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+    }
     
     
 }

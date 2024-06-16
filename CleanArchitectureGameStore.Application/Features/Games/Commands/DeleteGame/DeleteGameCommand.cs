@@ -4,4 +4,9 @@ using MediatR;
 
 namespace CleanArchitectureGameStore.Application.Features.Games.Commands.DeleteGame;
 
-public class DeleteGameCommand(int Id) : IRequest<Task>, IMapFrom<Game>;
+public class DeleteGameCommand : IRequest<Game>, IMapFrom<Game>
+{
+    public int Id { get; set; }
+
+    public DeleteGameCommand(int id) => Id = id;
+}
