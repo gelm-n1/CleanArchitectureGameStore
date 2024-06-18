@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eXNVDfYb+mz21u0rJtucMdtc22zKDFPifuzNt5Jjfbk=",
+  "Source": "CleanArchitectureGameStore.WebAPI",
+  "BasePath": "_content/CleanArchitectureGameStore.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

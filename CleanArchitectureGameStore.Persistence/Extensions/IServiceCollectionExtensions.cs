@@ -13,6 +13,7 @@ public static class IServiceCollectionExtensions
     public static void AddPersistenceLayer(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDataBaseContext(configuration);
+        services.AddRepositories();
         
     }
 
@@ -28,7 +29,6 @@ public static class IServiceCollectionExtensions
     private static void AddRepositories(this IServiceCollection services)
     {
         services.AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork))
-            .AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>))
-            .AddTransient<IGameRepository, GameRepository>();
+            .AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
     }
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CleanArchitectureGameStore.WebAPI.props" />
+</Project>

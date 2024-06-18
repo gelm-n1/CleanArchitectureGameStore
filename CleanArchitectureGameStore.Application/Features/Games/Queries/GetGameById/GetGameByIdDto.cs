@@ -6,5 +6,4 @@ namespace CleanArchitectureGameStore.Application.Features.Games.Queries.GetGameB
 public class GetGameByIdDto : IMapFrom<Game>
 {
     public string Name { get; set; }
-    public DateTime ReleaseDate { get; set; }
 }

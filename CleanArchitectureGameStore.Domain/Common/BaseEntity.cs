@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using CleanArchitectureGameStore.Domain.Common.Interfaces;
 
 namespace CleanArchitectureGameStore.Domain.Common;

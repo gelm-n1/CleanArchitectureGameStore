@@ -8,5 +8,13 @@ public class DeleteGameCommand : IRequest<Game>, IMapFrom<Game>
 {
     public int Id { get; set; }
 
-    public DeleteGameCommand(int id) => Id = id;
+    public DeleteGameCommand()
+    {
+        
+    }
+
+    public DeleteGameCommand(int id)
+    {
+        Id = id;
+    }
 }

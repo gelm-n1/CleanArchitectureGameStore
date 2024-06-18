@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArchitectureGameStore.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e032a97faf149442abae567758b48d5adce71af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1e1a7d53ba899db5c10ff8c0042cd68f349bcd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArchitectureGameStore.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArchitectureGameStore.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

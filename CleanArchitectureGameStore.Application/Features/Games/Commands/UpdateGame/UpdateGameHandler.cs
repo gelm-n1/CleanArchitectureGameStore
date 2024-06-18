@@ -21,7 +21,6 @@ public class UpdateGameHandler : IRequestHandler<UpdateGameCommand, Game>
         var game = await _unitOfWork.Repository<Game>().GetByIdAsync(command.Id);
 
         game.Name = command.Name;
-        game.ReleaseDate = command.ReleaseDate;
 
         await _unitOfWork.Repository<Game>().UpdateAsync(game);
         await _unitOfWork.Save(cancellationToken);

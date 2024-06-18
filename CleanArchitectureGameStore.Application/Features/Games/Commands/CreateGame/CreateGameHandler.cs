@@ -22,7 +22,6 @@ public class CreateGameHandler : IRequestHandler<CreateGameCommand, Game>
         var game = new Game()
         {
             Name = command.Name,
-            ReleaseDate = command.ReleaseDate
         };
 
         await _unitOfWork.Repository<Game>().AddAsync(game);

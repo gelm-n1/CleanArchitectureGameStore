@@ -16,5 +16,3 @@ D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectur
 D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Persistence\obj\Debug\net8.0\refint\CleanArchitectureGameStore.Persistence.dll
 D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Persistence\obj\Debug\net8.0\CleanArchitectureGameStore.Persistence.pdb
 D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Persistence\obj\Debug\net8.0\ref\CleanArchitectureGameStore.Persistence.dll
-D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Persistence\bin\Debug\net8.0\CleanArchitectureGameStore.Persistence.runtimeconfig.json
-D:\MyProjects\Programming\C#Projects\CleanArchitectureGameStore\CleanArchitectureGameStore.Persistence\obj\Debug\net8.0\CleanArchitectureGameStore.Persistence.genruntimeconfig.cache

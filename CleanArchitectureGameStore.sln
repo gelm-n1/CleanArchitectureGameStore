@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureGameStore.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{412B9EA9-FB25-45CF-925D-9E635AAA1BFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecureGameStore.WebAPI", "CleanArchitecureGameStore.WebAPI\CleanArchitecureGameStore.WebAPI.csproj", "{B83AA271-C09E-4321-81C1-DF5A7318405B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureGameStore.WebAPI", "CleanArchitectureGameStore.WebAPI\CleanArchitectureGameStore.WebAPI.csproj", "{B83AA271-C09E-4321-81C1-DF5A7318405B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
