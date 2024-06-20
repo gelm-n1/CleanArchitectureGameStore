@@ -6,4 +6,6 @@ namespace CleanArchitectureGameStore.Application.Features.Games.Queries.GetAllGa
 public class GetAllGamesDto : IMapFrom<Game>
 {
     public string Name { get; init; }
+    public DateTime ReleaseDate { get; init; }
+    public float Price { get; init; }
 }

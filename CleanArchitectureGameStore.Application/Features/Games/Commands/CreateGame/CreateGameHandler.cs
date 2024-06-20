@@ -1,27 +1,23 @@
-using AutoMapper;
-using CleanArchitectureGameStore.Application.Features.Games.Commands.CreateGame;
+using System.Globalization;
 using CleanArchitectureGameStore.Application.Interfaces.Repositories;
 using CleanArchitectureGameStore.Domain.Entities;
 using MediatR;
 
-namespace CleanArchitectureGameStore.Application.Features.Games.Handlers.CreateGame;
+namespace CleanArchitectureGameStore.Application.Features.Games.Commands.CreateGame;
 
 public class CreateGameHandler : IRequestHandler<CreateGameCommand, Game>
 {
     private readonly IUnitOfWork _unitOfWork;
-    private readonly IMapper _mapper;
 
-    public CreateGameHandler(IUnitOfWork unitOfWork, IMapper mapper)
-    {
-        _unitOfWork = unitOfWork;
-        _mapper = mapper;
-    }
+    public CreateGameHandler(IUnitOfWork unitOfWork) => _unitOfWork = unitOfWork;
     
     public async Task<Game> Handle(CreateGameCommand command, CancellationToken cancellationToken)
     {
         var game = new Game()
         {
             Name = command.Name,
+            ReleaseDate = DateTime.ParseExact(command.ReleaseDate, "yyyy-MM-dd", CultureInfo.InvariantCulture).ToUniversalTime(),
+            Price = command.Price
         };
 
         await _unitOfWork.Repository<Game>().AddAsync(game);

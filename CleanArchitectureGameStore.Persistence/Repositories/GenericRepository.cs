@@ -1,6 +1,7 @@
 using CleanArchitectureGameStore.Application.Interfaces.Repositories;
 using CleanArchitectureGameStore.Domain.Common;
 using CleanArchitectureGameStore.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitectureGameStore.Persistence.Repositories;
 
@@ -16,9 +17,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseAuditabl
 
     public IQueryable<T> Entities => _dbContext.Set<T>();
     
-    public Task<List<T>> GetAllAsync()
+    public async Task<List<T>> GetAllAsync()
     {
-        throw new NotImplementedException();
+        return await _dbContext.Set<T>().ToListAsync();
     }
 
     public async Task<T> GetByIdAsync(int id)

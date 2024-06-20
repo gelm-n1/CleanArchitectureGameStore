@@ -24,16 +24,73 @@ namespace CleanArchitectureGameStore.Persistence.Migrations
 
             modelBuilder.Entity("CleanArchitectureGameStore.Domain.Entities.Game", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                        .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<int?>("MainCharacterId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<float>("Price")
+                        .HasColumnType("real");
+
+                    b.Property<DateTime>("ReleaseDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MainCharacterId")
+                        .IsUnique();
+
+                    b.ToTable("Games");
+                });
+
+            modelBuilder.Entity("CleanArchitectureGameStore.Domain.Entities.MainCharacter", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Age")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Biografia")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("GameId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("HairColor")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Race")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -42,7 +99,22 @@ namespace CleanArchitectureGameStore.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Games");
+                    b.ToTable("MainCharacters");
+                });
+
+            modelBuilder.Entity("CleanArchitectureGameStore.Domain.Entities.Game", b =>
+                {
+                    b.HasOne("CleanArchitectureGameStore.Domain.Entities.MainCharacter", "MainCharacter")
+                        .WithOne("Game")
+                        .HasForeignKey("CleanArchitectureGameStore.Domain.Entities.Game", "MainCharacterId");
+
+                    b.Navigation("MainCharacter");
+                });
+
+            modelBuilder.Entity("CleanArchitectureGameStore.Domain.Entities.MainCharacter", b =>
+                {
+                    b.Navigation("Game")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

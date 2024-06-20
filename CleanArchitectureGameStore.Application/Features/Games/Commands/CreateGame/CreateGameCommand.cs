@@ -7,4 +7,7 @@ namespace CleanArchitectureGameStore.Application.Features.Games.Commands.CreateG
 public record CreateGameCommand : IRequest<Game>, IMapFrom<Game>
 {
     public string Name { get; set; }
+    public string ReleaseDate { get; set; }
+    public float Price { get; set; }
+    
 }

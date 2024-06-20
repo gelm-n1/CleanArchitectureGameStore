@@ -12,6 +12,7 @@ public class ApplicationDbContext : DbContext
     }
     
     public DbSet<Game> Games => Set<Game>();
+    public DbSet<MainCharacter> MainCharacters => Set<MainCharacter>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
